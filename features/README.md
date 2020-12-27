@@ -1,6 +1,8 @@
 # Typescript Features and Syntax
 While syntax is the basis, the real challenge when working with Typescript is to understand design patterns that make code more reusable and less error prone. This will be the focus further below. For now, the goal is to expose the syntax and general concepts.
 
+If, for any reason, you wanted to exclude a file from being checked by TypeScript, add `// @ts-nocheck` as the first line of a file.
+
 
 ## Types
 Every value in Typescript has a type - a collections of properties and functions. Some types are basic, but we can build custom ones as well. In particular, there are:
